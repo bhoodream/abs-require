@@ -3,12 +3,14 @@ Absolute require for node.js.
 ## Installation:
 `npm i -D abs-require`.
 
-## Usage
-Instead of a relative path `const someModule = require('../../../someModule/index.js');`, write an absolute path `const someModule = require('someModule/index.js');`.
+## Motivation
+Instead of a long relative path to the module, write a short absolute path.
 
 ## Examples
 Was:
-`const someModule = require('../../../../../someModule/index.js');`.
+```
+const someModule = require('../../../../../someModule/index.js');
+```
 
 Become:
 ```
