@@ -3,7 +3,7 @@ Absolute require for node.js.
 ## Installation
 `npm i -D abs-require`.
 
-## Motivation:
+## Motivation
 Instead of a long relative path to the module, write a short absolute path.
 
 ## Examples
